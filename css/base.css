@@ -1,0 +1,27 @@
+body#connexion,body#inscription{
+    background: url('../img/fond.jpg') center;
+    background-size: cover;
+}
+.my-connexion{
+    background: white;
+    margin-top: 15%;
+    padding: 10px 15px;
+    border-radius: 15px;
+
+}
+.my-connexion input, .my-connexion a{
+    margin-bottom: 15px;
+    display: block;
+}
+
+/*      Header      */
+.navbar .right{
+    color: grey;
+}
+.navbar .right > a{
+    color: lightgrey;
+}
+.navbar .right > a:hover{
+    color: white;
+    text-decoration: none;
+}
